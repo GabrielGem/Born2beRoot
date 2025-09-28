@@ -1,0 +1,47 @@
+Comands
+
+Graphical Interface
+
+ls /usr/bin/*session
+
+UFW
+
+sudo ufw status || sudo service ufw status
+sudo ufw allow
+sudo ufw status numbered
+sudo ufw delete number_rule
+
+SSH
+
+sudo service ssh status
+
+Check OS
+
+uname -v
+
+User 
+
+sudo adduser name_user
+
+Groups
+
+sudo addgroup name_group
+getent group sudo user42
+groups name_users
+sudo adduser name_user name_group
+
+Hostname
+
+hostname
+sudo editor /etc/hostname
+sudo editor /etc/hosts
+sudo hostnamectl set-hostname new_hostaname
+
+Partitions
+
+lsblk
+
+Sudo
+
+which sudo
+/etc/sudoers.d/sudo_config
